@@ -1,0 +1,13 @@
+C:\Users\Projetinho\Desktop\TOODOO\Blastoff\bin\Debug\netcoreapp3.1\Blastoff.exe
+C:\Users\Projetinho\Desktop\TOODOO\Blastoff\bin\Debug\netcoreapp3.1\Blastoff.deps.json
+C:\Users\Projetinho\Desktop\TOODOO\Blastoff\bin\Debug\netcoreapp3.1\Blastoff.runtimeconfig.json
+C:\Users\Projetinho\Desktop\TOODOO\Blastoff\bin\Debug\netcoreapp3.1\Blastoff.runtimeconfig.dev.json
+C:\Users\Projetinho\Desktop\TOODOO\Blastoff\bin\Debug\netcoreapp3.1\Blastoff.dll
+C:\Users\Projetinho\Desktop\TOODOO\Blastoff\bin\Debug\netcoreapp3.1\Blastoff.pdb
+C:\Users\Projetinho\Desktop\TOODOO\Blastoff\obj\Debug\netcoreapp3.1\Blastoff.csprojAssemblyReference.cache
+C:\Users\Projetinho\Desktop\TOODOO\Blastoff\obj\Debug\netcoreapp3.1\Blastoff.AssemblyInfoInputs.cache
+C:\Users\Projetinho\Desktop\TOODOO\Blastoff\obj\Debug\netcoreapp3.1\Blastoff.AssemblyInfo.cs
+C:\Users\Projetinho\Desktop\TOODOO\Blastoff\obj\Debug\netcoreapp3.1\Blastoff.csproj.CoreCompileInputs.cache
+C:\Users\Projetinho\Desktop\TOODOO\Blastoff\obj\Debug\netcoreapp3.1\Blastoff.dll
+C:\Users\Projetinho\Desktop\TOODOO\Blastoff\obj\Debug\netcoreapp3.1\Blastoff.pdb
+C:\Users\Projetinho\Desktop\TOODOO\Blastoff\obj\Debug\netcoreapp3.1\Blastoff.genruntimeconfig.cache

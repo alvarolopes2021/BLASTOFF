@@ -51,7 +51,7 @@ namespace Blastoff
             Console.WriteLine("###   Exercise 2   ### \n");
 
             bool success = false;
-            float A = 0, B=0;
+            float A = 0, B = 0;
             do
             {
                 Console.Write("Type the distance: ");
@@ -124,21 +124,23 @@ namespace Blastoff
             Exercise4();
         }
 
-        private static void Exercise4(){
+        private static void Exercise4()
+        {
             Console.WriteLine("###   Exercise 4   ### \n");
 
             double tempCelcius = 0;
 
-            do{
+            do
+            {
                 Console.Write("Type the temperature in Celcius: ");
 
                 bool success = double.TryParse(Console.ReadLine(), out tempCelcius);
-                if(!success)
+                if (!success)
                     Console.WriteLine("The temperature must be a number!");
-                else if(tempCelcius<-273.15)
+                else if (tempCelcius < -273.15)
                     Console.WriteLine("Impossible temperature");
 
-            }while(tempCelcius <-273.15);
+            } while (tempCelcius < -273.15);
 
             double tempF = 32 + tempCelcius;
 
@@ -151,30 +153,68 @@ namespace Blastoff
         }
 
 
-        private static void Exercise5(){
+        private static void Exercise5()
+        {
             Console.WriteLine("###   Exercise 5   ### \n");
 
             double num1, num2;
 
-            bool success= false;
-            do{
+            bool success = false;
+            do
+            {
                 Console.Write("Type a number: ");
-                success = double.TryParse(Console.ReadLine(), out num1);                
-            }while(!success);
+                success = double.TryParse(Console.ReadLine(), out num1);
+            } while (!success);
 
-            do{
+            do
+            {
                 Console.Write("Type a number: ");
-                success = double.TryParse(Console.ReadLine(), out num2);                
-            }while(!success);
+                success = double.TryParse(Console.ReadLine(), out num2);
+            } while (!success);
 
             bool areMultiple = (num1 % num2 == 0);
 
-            if(areMultiple)
+            if (areMultiple)
                 Console.WriteLine($"{num1} and {num2} are multiple");
-            else    
+            else
                 Console.WriteLine($"{num1} and {num2} are not multiple");
 
             Console.ReadLine();
+
+            Exercise7();
+        }
+
+        private static void Exercise7()
+        {
+            Console.WriteLine("###   Exercise 7   ### \n");
+            List<double> numbers = new List<double>();
+
+            List<double> pairs = new List<double>();
+
+            string op = "n";
+            do
+            {
+                Console.Write("Type a number: ");
+                bool success = double.TryParse(Console.ReadLine(), out double num);
+
+                if (success)
+                    numbers.Add(num);
+                else
+                {
+                    Console.WriteLine("Character mus be a number!");
+                }
+                Console.Write("Want to stop adding numbers? y - yes | n - no");
+
+                op = Console.ReadLine();
+
+            } while (!op.Equals("y"));
+
+            foreach (var item in numbers)
+            {
+                if(item % 2 == 0)
+                    pairs.Add(item);
+            }
+            
         }
     }
 }
